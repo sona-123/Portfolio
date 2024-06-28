@@ -15,7 +15,7 @@ export default function Particle() {
     const particlesOptions = {
         background: {
             color: {
-                value: "#ca82a4", // Background color
+                value: "#000000", // Background color
             },
         },
         fpsLimit: 120,
