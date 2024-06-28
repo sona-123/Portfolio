@@ -8,12 +8,16 @@ const Home = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "Who am I?",
-        "Sonali Gupta",
-        "Full stack web developer",
-        "Coding Enthusiast",
-        "IIIT ALLAHABAD'25"
+        "Hello, I'm Sonali Gupta",
+        "Passionate Full Stack Web Developer",
+        "Coding Enthusiast & Problem Solver",
+        "Expert in React, Node.js, and C++",
+        "Building Scalable and Robust Web Applications",
+        "Pursuing B.Tech at IIIT Allahabad, Class of 2025",
+        "Open to Internship and Job Opportunities",
+        "Let's Connect and Create Amazing Projects Together!"
       ],
+      
       typeSpeed: 50,
       backSpeed: 50,
       startDelay: 500,
@@ -56,18 +60,19 @@ const Home = () => {
           <a
             href={"https://drive.google.com/file/d/1d624dPjYKNp2MPYu5qxD_a4Ku9F17p0o/view?usp=sharing"}
             download="Resume.pdf"
-            className="btn btn-outline-warning my-3"
+            className="border border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-white py-2 px-4 rounded my-3"
           >
             View Resume
           </a>
         </div>
 
         <div className="right">
-          <div className="img" data-aos="fade-up-left" data-aos-duration="1000">
-            {/* Properly concatenate the image source using template literals */}
-            <img src={`/assets/${hero.imgSrc}`} alt="hero" />
-          </div>
-        </div>
+  <div className="img" data-aos="fade-up-left" data-aos-duration="1000">
+    {/* Properly concatenate the image source using template literals */}
+    <img src={`/assets/${hero.imgSrc}`} alt="hero" className="w-auto h-auto max-h-full rounded-full object-cover" />
+  </div>
+</div>
+
       </div>
     </>
   );
