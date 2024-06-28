@@ -44,23 +44,24 @@ const Home = () => {
     <>
       <div className="container home" id="home">
         <div className="left" data-aos="fade-up-right" data-aos-duration="1000">
-          <section>
-            <div className="text__editor">
-              <div className="text__body">
-                <span>
-                  <span style={{ color: "red", fontWeight: 600 }}>root</span>
-                  <span>@sonali:</span>
-                  <span style={{ color: "blue", fontWeight: 900 }}>~</span>$&nbsp;
-                </span>
-                <span style={{ color: "#ff00dd" }} id="typed"></span>
-              </div>
-            </div>
-          </section>
+        <section className="bg-gray-900 py-6">
+  <div className="text__editor mx-auto max-w-4xl p-4 bg-gray-800 rounded-lg shadow-lg">
+    <div className="text__body text-white font-mono text-lg">
+      <span >
+        {/* <span className="text-red-500 font-semibold" style={{ color: "blue", fontWeight: 900 }}>root</span> */}
+        {/* <span>@sonali:</span> */}
+        {/* <span className="text-blue-500 font-extrabold">~</span>$&nbsp; */}
+      </span>
+      <span className="text-pink-500"  style={{ color: "pink-100", fontWeight: 900 }} id="typed"></span>
+    </div>
+  </div>
+</section>
+
 
           <a
             href={"https://drive.google.com/file/d/1d624dPjYKNp2MPYu5qxD_a4Ku9F17p0o/view?usp=sharing"}
             download="Resume.pdf"
-            className="border border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-white py-2 px-4 rounded my-3"
+            className="border border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-white mt-4 py-2 px-4 rounded my-3 "
           >
             View Resume
           </a>
