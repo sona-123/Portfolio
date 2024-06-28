@@ -20,7 +20,7 @@
       "title": "Portfolio",
       "imageSrc": "projects/port.png",
       "description": "This is a project made with complete React js.",
-      "demo": "https://www.example.com",
-      "source": "https://github.com/gauravsahay007/Portfolio"
+      "demo": "https://portfolio-sona-123s-projects.vercel.app/",
+      "source": "https://github.com/sona-123/Portfolio"
     }
   ]
