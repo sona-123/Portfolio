@@ -68,11 +68,10 @@ const Home = () => {
         </div>
 
         <div className="right">
-  <div className="img" data-aos="fade-up-left" data-aos-duration="1000">
-    {/* Properly concatenate the image source using template literals */}
-    <img src={`/assets/${hero.imgSrc}`} alt="hero" className="w-auto h-auto max-h-full rounded-full object-cover" />
-  </div>
-</div>
+          <div className="img" data-aos="fade-up-left" data-aos-duration="1000">
+            <img src={`/assets/${hero.imgSrc}`} alt="hero" />
+          </div>
+        </div>
 
       </div>
     </>
