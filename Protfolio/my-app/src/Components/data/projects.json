@@ -17,6 +17,14 @@
     },
     {
       "key": 3,
+      "title": "EncryShare",
+      "imageSrc": "projects/EncryShare.png",
+      "description": "This is a project made with complete React js and Next Js.",
+      "demo": "https://encryshare.vercel.app/",
+      "source": "https://github.com/sona-123/Class-Connect"
+    },
+    {
+      "key": 4,
       "title": "Portfolio",
       "imageSrc": "projects/port.png",
       "description": "This is a project made with complete React js.",

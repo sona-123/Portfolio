@@ -59,8 +59,8 @@ const Home = () => {
 
 
           <a
-            href={"https://drive.google.com/file/d/1d624dPjYKNp2MPYu5qxD_a4Ku9F17p0o/view?usp=sharing"}
-            download="Resume.pdf"
+            href={"https://drive.google.com/file/d/1Yy7XLhmFhbSB11IqYRmeT-ecUSWha-Hi/view?usp=sharing"}
+            download="Resume_IEC2021007.pdf"
             className="btn btn-outline-warning my-3" 
           >
             View Resume
